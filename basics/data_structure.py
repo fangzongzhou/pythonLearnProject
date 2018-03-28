@@ -30,3 +30,23 @@ while i<len(L):
 
 # Tuple
 classmates = ('Michael', 'Bob', 'Tracy')
+
+
+# Dict
+fractionalTable={'fangzongzhou':80,'guoranran':90}
+print(fractionalTable['guoranran'])
+fractionalTable['guoranran']=95
+print(fractionalTable['guoranran'])
+print('fangzongzhou' in fractionalTable)
+print(fractionalTable.get('guoranran'))
+print(fractionalTable)
+fractionalTable.pop('fangzongzhou')
+print(fractionalTable)
+
+# Set
+myset=set([1,1,2,3,44,44])
+print(myset)
+myset.add(44)
+print(myset)
+myset.remove(44)
+print(myset)

@@ -12,11 +12,18 @@ print(myfriends)
 myfriends.pop()
 print(myfriends)
 
+
+L=list(range(100))
+print(L)
+print(L[:10])
+print(L[::4])
 L = [
     ['Apple', 'Google', 'Microsoft'],
     ['Java', 'Python', 'Ruby', 'PHP'],
     ['Adam', 'Bart', 'Lisa']
 ]
+
+
 
 i=0
 

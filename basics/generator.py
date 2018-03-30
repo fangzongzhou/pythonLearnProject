@@ -10,4 +10,5 @@ def fib(max):
         n = n + 1
     return 'done'
 for f in fib(6):
+
     print(f)
